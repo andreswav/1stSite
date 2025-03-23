@@ -1,0 +1,19 @@
+body
+{
+    font-family: "press start 2P";
+    background-color: black;
+} 
+.verde
+{
+    color: rgb(0, 255, 0);
+}
+.centrar{
+    text-align: center;
+    
+}
+.botones{
+    border-color: rgb(0, 255, 0);
+    background-color: black;
+    color: rgb(0, 255, 0);
+    
+}

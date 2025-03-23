@@ -1,0 +1,49 @@
+body {background-color: rgb(231, 205, 157);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1
+{
+      font-family: "press start 2P";
+      clear: left;
+}
+h3
+{
+    border-style: double;
+}
+p
+{
+    border-style: double;
+}
+#box1 
+{
+    border: 5px solid;
+    width: 200px;
+    height: 200px;
+    border-color: blueviolet;
+    border-style: groove;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    float: left;
+}
+#box2 
+{
+    border: 5px solid;
+    width: 200px;
+    height:auto;
+    border-color: blueviolet;
+    border-style: groove;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    float: left;
+}
+#flotadora 
+{
+    float: left;
+}
+button
+{
+    color: rgb(0, 255, 42);
+    background-color: gray;
+}

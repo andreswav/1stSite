@@ -1,0 +1,71 @@
+body
+{
+    background-color: black;
+}
+body, button, input
+{
+    font-family: "press start 2P";
+}
+
+h1,h2,h3,h4,h5,h6,p,label
+{
+    color: rgb(32, 255, 32);
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 5px;
+}
+input
+{
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: rgb(32, 255, 32);
+    color: black;
+    border: 0px;
+    margin-top: 5px;
+    margin-right: 2px;
+    
+}
+label
+{
+    margin: 0px;
+}
+button, div
+{
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: rgb(32, 255, 32);
+    color: black;
+    border: 0px;
+    width: auto;
+    padding: 3px;
+    margin: 5px;
+}
+button:hover{
+    background-color: rgb(122, 255, 122);
+}
+button:active{
+    background-color: rgb(0, 207, 0);
+}
+#botonContador{
+    float: left;
+}
+#contadorResultado{
+    float: left;
+}
+br{clear: both;}
+#caja
+{
+    border-radius: 0px;
+    background-color: rgb(32, 255, 32);
+    width: fit-content;
+}
+#resultadoDeOperacion
+{
+    color: black;
+}
+
+
+

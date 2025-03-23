@@ -1,0 +1,172 @@
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("/imgs/fondo1.jpg");
+    background-size: cover;
+    background-repeat: repeat ;
+    background-position: center;  
+     
+    
+}
+
+.cabeza
+{
+    position: absolute ;  
+    top: 0px;
+    left: 0px; 
+    width: 100%;  
+    height: 150px;  
+    border: 2px solid black;
+    
+}
+.cabeza img{
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    border-radius: 10px;
+    border: 2px solid rgb(255, 210, 112);
+    filter: brightness(0.7);
+    opacity: 0.4;
+}
+.cabezaTexto{
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    text-shadow: 2px 2px 0px rgb(8, 64, 138), -2px -2px 0px rgb(8, 64, 138),
+    2px -2px 0px rgb(8, 64, 138), -2px 2px 0px rgb(8, 64, 138);
+    max-height: 100%;    
+    opacity: 0.7;
+}
+
+.cuerpo{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 200%;
+    max-width: 100%;
+    color: white;
+}
+
+
+
+
+.contenido{
+    position: absolute;
+    left: 26%;
+    width: 60%;
+    max-width: 70%;
+    top: 0px;
+    font-size: 30px;
+    line-height: 140%;
+    border: 1px solid rgb(255, 210, 112);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+.contenido img{
+    border-radius: 10px;
+}
+.contenido h1{
+    font-size: 80px;
+}
+
+.flota-izquierda{
+    float: left;
+    margin: 5px;
+}
+.flota-derecha{
+    float: right;
+    margin: 5px;        
+}
+.rompedor{
+    clear: both;
+}
+
+
+
+
+
+.navegacion {
+    position: sticky;
+    top: 2%;
+    left: 1%;
+    width: 23%;
+    max-width: 23%;
+    border: 1px solid rgb(255, 210, 112);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+.navegacion div{
+    width: fit-content;
+    margin: 5px;
+    position: relative;
+}
+.navegacion #infoCuenta{
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.fotoPerfil{
+    display: block;
+    border-radius: 50%;
+    border: 1.5px solid rgb(255, 210, 112);
+    width: 60%;
+    max-width: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.botonesSesion {
+    width: fit-content;    
+    position:relative;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+.botonera2{ 
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#infoCuenta{
+    font-weight: bold;
+    color: rgb(255, 196, 69);
+}
+
+button{
+    width: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;    
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1.5px solid rgb(255, 210, 112);
+    border-radius: 7px;
+    margin: 3px;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1.5px solid rgb(255, 136, 0);  
+}
+button:active{
+    filter: brightness(0.7);
+}
+
+.indice a{
+    font-weight: normal;
+    text-decoration: underline;
+    color: rgb(255, 210, 112);
+}
+.indice ul li::marker{
+    color: rgb(173, 110, 14);
+}
+
+

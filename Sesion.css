@@ -1,0 +1,79 @@
+body{    
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("/imgs/fondo1.jpg");
+    background-size: cover;
+    background-repeat: repeat ;
+    background-position: center;        
+    }
+    
+
+
+.inicio-registro{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 210, 112);
+    background-color: rgba(0, 0, 0, 0.7);    
+    color: rgb(255, 210, 112);    
+    padding: 15px;
+}
+.inicio-registro img{
+    border-radius: 50%;  
+    border: 2px solid rgb(255, 210, 112);
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 300px;
+    height: 300px;
+    max-width: 80%;
+    max-height: 50%;
+   
+}
+.inicio-registro .inputs{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+.inicio-registro label{
+    text-align: right;
+    margin-right: 10px;
+    font-size: x-large;
+}
+.inicio-registro input{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 210, 112);
+    border-radius: 5px;
+    margin: 3px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+input:focus{
+    outline: none;
+}
+.inicio-registro button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(255, 210, 112);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.inicio-registro button:hover{
+    cursor: pointer;
+    filter: contrast(1.3);    
+}
+.inicio-registro button:active{
+    filter: brightness(0.7);
+}
+.errorMensaje{
+    color: rgb(255, 108, 108);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
