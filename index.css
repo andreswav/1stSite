@@ -29,8 +29,11 @@ body{
     opacity: 0.4;
 }
 .cabezaTexto{
+    width: fit-content;
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 300%;
+    line-height: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,9 +58,9 @@ body{
 
 .contenido{
     position: absolute;
-    left: 26%;
-    width: 60%;
-    max-width: 70%;
+    left: 27%;
+    width: 65%;
+    max-width: 65%;
     top: 0px;
     font-size: 30px;
     line-height: 140%;
@@ -71,6 +74,8 @@ body{
 }
 .contenido h1{
     font-size: 80px;
+    margin: 3%;
+    line-height: 1;
 }
 
 .flota-izquierda{
@@ -86,15 +91,13 @@ body{
 }
 
 
-
-
-
 .navegacion {
     position: sticky;
     top: 2%;
     left: 1%;
-    width: 23%;
-    max-width: 23%;
+    width: 25%;
+    min-width: 20%;
+    max-width: 30%;
     border: 1px solid rgb(255, 210, 112);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -110,6 +113,7 @@ body{
 .navegacion #infoCuenta{
     left: 50%;
     transform: translate(-50%, 0%);
+    text-align: center;
 }
 
 .fotoPerfil{
@@ -125,12 +129,13 @@ body{
 }
 
 .botonesSesion {
-    width: fit-content;    
-    position:relative;
+    max-width: min-content;    
+    position:absolute;
     left: 50%;
     transform: translate(-50%, 20%);
 }
 .botonera2{ 
+    max-width: min-content;   
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -160,6 +165,13 @@ button:active{
     filter: brightness(0.7);
 }
 
+.indice{
+    font-size: x-large;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
 .indice a{
     font-weight: normal;
     text-decoration: underline;
