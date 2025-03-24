@@ -1,6 +1,6 @@
 body{    
     font-family: 'Times New Roman', Times, serif;
-    background-image: url("imgs/fondo1.webp");
+    background-image: url("../imgs/fondo1.webp");
     background-size: cover;
     background-repeat: repeat ;
     background-position: center;        
@@ -91,4 +91,9 @@ button:active{
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+}
+.botonRegresar{
+    position: relative;
+    top: 50%;
+    
 }
