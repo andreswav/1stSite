@@ -13,7 +13,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    min-height: 70%;
+    min-height: fit-content;
     max-height: 100%;
     border-radius: 20px;
     border: 2px solid rgb(255, 210, 112);
