@@ -10,7 +10,7 @@ function Apodo(){
 }
 function Weno(){
     let image1 = document.getElementById("image1");
-    image1.src = "/imgs/1.jpg";
+    image1.src = "imgs/1.jpg";
     p1.textContent = "weno la vd me da paja y creo q es mejor si intento hacer modelos de paginas y no esta cagada"
     document.getElementById("insertador").style.display = "block";
     let boton = document.getElementById("confirmador");
