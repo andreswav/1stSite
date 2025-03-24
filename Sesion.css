@@ -13,7 +13,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    height: 70%;
+    min-height: 70%;
+    max-height: 100%;
     border-radius: 20px;
     border: 2px solid rgb(255, 210, 112);
     background-color: rgba(0, 0, 0, 0.7);    
@@ -21,23 +22,23 @@ body{
     padding: 15px;
 }
 .inicio-registro img{
+   
     border-radius: 50%;  
     border: 2px solid rgb(255, 210, 112);
-    position: absolute;
+    position: relative;
     top: 2%;
     left: 50%;
     transform: translate(-50%, 0%);
     width: 300px;
     height: 300px;
-    max-width: 80%;
-    max-height: 50%;
+    
    
 }
-.inicio-registro .inputs{
-    position: absolute;
-    top: 68%;
+.inicio-registro .inputs{ 
+    width: fit-content;   
+    position: relative;    
     left: 50%;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, 0);    
 }
 .inicio-registro label{
     text-align: right;
@@ -54,25 +55,40 @@ body{
 }
 input:focus{
     outline: none;
+    border-color: rgb(255, 136, 0);
 }
 .inicio-registro button{
+    margin: 7px;
+}
+button{
+    width: 150px;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-weight: bold;
-    background-color: rgb(255, 210, 112);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 5px;
+    font-size: x-large;    
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1.5px solid rgb(255, 210, 112);
+    border-radius: 7px;
+    margin: 3px;
+    padding: 5px;
 }
-.inicio-registro button:hover{
+button:hover{
     cursor: pointer;
-    filter: contrast(1.3);    
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1.5px solid rgb(255, 136, 0);  
 }
-.inicio-registro button:active{
+button:active{
     filter: brightness(0.7);
 }
+
 .errorMensaje{
     color: rgb(255, 108, 108);
     text-decoration: underline;
     font-weight: bold;
     font-size: larger;
+}
+.botonera{
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
